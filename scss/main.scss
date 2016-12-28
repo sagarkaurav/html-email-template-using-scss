@@ -1,0 +1,66 @@
+@import "variable.scss";
+
+body
+{
+  margin:0;
+  padding:0;
+  background-color: $body-background-color;
+  color: $font-color;
+}
+.container
+{
+  height: $container-height;
+  width: $container-width;
+  background-color: $container-background-color;
+  border: 0px;
+}
+.header
+{
+  height: $header-height;
+  width: $header-width;
+  background-color: $header-background-color;
+}
+.body
+{
+}
+.padding-15
+{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.text-center
+{
+  text-align: center;
+}
+.no-text-decoration
+{
+  text-decoration: none;
+}
+.button
+{
+  background-color: $button-background-color;
+  border: $button-border;
+  color: $button-color;
+  font-size: $button-font-size;
+  padding-top: 10px;
+  margin: $button-margin;
+  border-radius: $button-border-radius;
+  width: $button-width;
+  height: $button-height;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  transition: .5s ease-in;
+}
+.button:hover
+{
+  background-color: $button-hover-background-color;
+}
+.footer
+{
+  height: $footer-height;
+  width: 100%;
+  background-color: $footer-background-color;
+  color: $footer-text-color;
+  font-size: $footer-font-size;
+}

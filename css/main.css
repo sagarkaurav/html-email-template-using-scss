@@ -1,0 +1,65 @@
+/*body scss variables */
+/*container scss variables */
+/*header scss variables*/
+/*button scss variable chnage to modify button styling*/
+/*Footer scss variables*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+  color: black;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border: 0px;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  background-color: #e9573f;
+}
+
+.padding-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.no-text-decoration {
+  text-decoration: none;
+}
+
+.button {
+  background-color: #25ccf9;
+  border: 1px solid black;
+  color: white;
+  font-size: 16px;
+  padding-top: 10px;
+  margin: 0 0 0 46%;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  transition: .5s ease-in;
+}
+
+.button:hover {
+  background-color: #2598f9;
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  background-color: #e9573f;
+  color: black;
+  font-size: 10px;
+}

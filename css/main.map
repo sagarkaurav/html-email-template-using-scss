@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/_variable.scss"
+	],
+	"sourcesContent": [
+		"@import \"variable.scss\";\n\nbody\n{\n  margin:0;\n  padding:0;\n  background-color: $body-background-color;\n  color: $font-color;\n}\n.container\n{\n  height: $container-height;\n  width: $container-width;\n  background-color: $container-background-color;\n  border: 0px;\n}\n.header\n{\n  height: $header-height;\n  width: $header-width;\n  background-color: $header-background-color;\n}\n.body\n{\n  padding-left: 15px;\n  padding-right: 15px;\n}\n.text-center\n{\n  text-align: center;\n}\n.no-text-decoration\n{\n  text-decoration: none;\n}\n.button\n{\n  background-color: $button-background-color;\n  border: $button-border;\n  color: $button-color;\n  padding: 5px;\n  width: $button-width;\n  height: $button-height;\n  transition: .5s ease-in;\n}\n.button:hover\n{\n  background-color: $button-hover-background-color;\n}\n.footer\n{\n  height: $footer-height;\n  width: 100%;\n  background-color: $footer-background-color;\n  color: $footer-text-color;\n  font-size: $footer-font-size;\n}\n",
+		"/*body scss variables */\n$body-background-color: grey;\n$font-color: black;\n/*container scss variables */\n$container-background-color: white;\n$container-height: 100%;\n$container-width: 100%;\n/*header scss variables*/\n$header-background-color: #e9573f;\n$header-height: 50px;\n$header-width: 100%;\n\n/*button scss variable chnage to modify button styling*/\n$button-background-color: #25ccf9;\n$button-border: 1px solid white;\n$button-color: white;\n$button-hover-background-color: #2598f9;\n$button-width: 100px;\n$button-height: 100px;\n\n/*Footer scss variables*/\n$footer-height: 50px;\n$footer-background-color: #e9573f;\n$footer-text-color: white;\n$footer-font-size: 5px;\n"
+	],
+	"mappings": "ACAA,wBAAwB;AAGxB,6BAA6B;AAI7B,yBAAyB;AAKzB,wDAAwD;AAQxD,yBAAyB;;ADlBzB,AAAA,IAAI,CACJ;EACE,MAAM,EAAC,CAAE;EACT,OAAO,EAAC,CAAE;EACV,gBAAgB,ECLM,IAAI;EDM1B,KAAK,ECLM,KAAK;CDMjB;;;AACD,AAAA,UAAU,CACV;EACE,MAAM,ECNW,IAAI;EDOrB,KAAK,ECNW,IAAI;EDOpB,gBAAgB,ECTW,KAAK;EDUhC,MAAM,EAAE,GAAI;CACb;;;AACD,AAAA,OAAO,CACP;EACE,MAAM,ECTQ,IAAI;EDUlB,KAAK,ECTQ,IAAI;EDUjB,gBAAgB,ECZQ,OAAO;CDahC;;;AACD,AAAA,KAAK,CACL;EACE,YAAY,EAAE,IAAK;EACnB,aAAa,EAAE,IAAK;CACrB;;;AACD,AAAA,YAAY,CACZ;EACE,UAAU,EAAE,MAAO;CACpB;;;AACD,AAAA,mBAAmB,CACnB;EACE,eAAe,EAAE,IAAK;CACvB;;;AACD,AAAA,OAAO,CACP;EACE,gBAAgB,ECxBQ,OAAO;EDyB/B,MAAM,ECxBQ,GAAG,CAAC,KAAK,CAAC,KAAK;EDyB7B,KAAK,ECxBQ,KAAK;EDyBlB,OAAO,EAAE,GAAI;EACb,KAAK,ECxBQ,KAAK;EDyBlB,MAAM,ECxBQ,KAAK;EDyBnB,UAAU,EAAE,WAAY;CACzB;;;AACD,AAAO,OAAA,AAAA,MAAM,CACb;EACE,gBAAgB,EC/Bc,OAAO;CDgCtC;;;AACD,AAAA,OAAO,CACP;EACE,MAAM,EC9BQ,IAAI;ED+BlB,KAAK,EAAE,IAAK;EACZ,gBAAgB,EC/BQ,OAAO;EDgC/B,KAAK,EC/Ba,KAAK;EDgCvB,SAAS,EC/BQ,GAAG;CDgCrB",
+	"names": []
+}
